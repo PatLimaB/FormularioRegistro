@@ -1,0 +1,83 @@
+html {
+    background-image: url("./img/fondoGW2.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input {
+    margin: 5px;
+    box-shadow: inset 0 1px 3px rgba(201, 201, 201, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+span {
+    opacity: 0; /* Hace que el mensaje sea completamente transparente cuando esté oculto */
+}
+
+.ok {
+    border: 2px solid green;
+}
+
+.general {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* Esto centrará verticalmente el contenido */
+    height: 100vh;
+}
+
+.leftColumn {
+    flex-basis: 50%;
+}
+
+.rightColumn {
+    flex-basis: 25%;
+    padding: 35px;
+    background: white;
+    box-shadow: 9px 8px 5px -4px rgba(201, 201, 201, 1);
+    text-align: center;
+}
+
+.rightColumn img {
+    height: 120px;
+}
+
+.rightColumn p {
+    font-size: 20px;
+}
+
+.mensajeCheckbox {
+    margin: 5px;
+    padding: 10px;
+}
+
+#submitButton {
+    background-color: #ee2e24;
+    background-image: linear-gradient(to bottom, #ff100a 0, #850703 100%);
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#submitButton:hover {
+    background-image: none;
+}

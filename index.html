@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="general">
+        <div class="leftColumn">
+            <img src="">
+        </div>
+        <div class="rightColumn">
+            <img src="./img/logoGW2.png">
+            <p>Únete a la aventura.</p>
+            <p>Suscríbete.</p>
+            <form id="registrationForm">
+                <div>
+                    <input type="text" id="name" placeholder="Nombre"><br>
+                    <span>El nombre solo puede contener letras y espacios.</span>
+                </div>
+                <div>
+                    <input type="text" id="telephoneNumber" placeholder="Número de teléfono"><br>
+                    <span>El teléfono tiene que comenzar por 6, 7 u 9 y tener 9 dígitos.</span>
+                </div>
+                <div>
+                    <input type="password" id="pass" placeholder="Contraseña"><br>
+                    <span>La contraseña tiene que tener 6 o más caracteres y al menos una letra minúscula, una letra
+                        mayúscula y un número.</span>
+                </div>
+                <div>
+                    <input type="password" id="repeatPassword" placeholder="Contraseña de nuevo"><br>
+                    <span>Las contraseñas no coinciden.</span>
+                </div>
+                <div class="mensajeCheckbox">
+                    <input type="checkbox" id="useConditions"> Aceptar condiciones de uso
+                </div>
+                <div>
+                    <button type="submit" id="submitButton">REGISTRARTE</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
